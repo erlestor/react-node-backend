@@ -14,8 +14,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        <img
+          src={
+            "https://static.onecms.io/wp-content/uploads/sites/20/2019/10/trump-middle-finger-1-2000.jpg"
+          }
+          className="App-logo"
+          alt="logo"
+        />
+        <p style={{ fontSize: "50px", fontFamily: "comic-sans" }}>
+          {!data ? "Loading..." : data}
+        </p>
       </header>
     </div>
   )
